@@ -20,8 +20,8 @@
        </nav>
        <div class="absolute top-0 w-1/2 h-screen left-1/2 translate-x-full z-50 transition-all duration-500 bg-gradient-to-b from-[#151926] to-[#151E46] text-2xl" id="menu">
             <div class="relative flex flex-col items-center gap-6 justify-center h-full">
-                <a href="/" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Главная</a>
-                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Контакты</a>
+                <a href="/" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Аннотация</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">О языке</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Преимущества языка</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Материалы</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Книги</a>
@@ -39,10 +39,16 @@
 
     <main class="container mx-auto flex flex-col gap-12 py-12">
         <p class="text-3xl text-center">Аннотация</p>
-        <p>Добро пожаловать на наш сайт по изучению языка программирования C++! Мы - команда энтузиастов, которые разделяют страсть к программированию и хотят помочь вам освоить один из самых мощных и популярных языков программирования в мире. Наша миссия - сделать изучение C++ увлекательным, эффективным и доступным для всех. На нашем сайте вы найдете широкий выбор обучающих материалов. Мы стремимся предоставить вам всю необходимую информацию, чтобы вы могли глубоко погрузиться в мир программирования и научиться создавать мощные и эффективные программы.</p>
+        <div class="flex flex-col gap-2">
+            <p>Данный курс по изучению C++ призван обеспечить студентов всем необходимым для овладения этим мощным языком программирования. В ходе курса студенты получат подробное введение в синтаксис C++, основные концепции и принципы языка. Они изучат основные понятия, такие как переменные, типы данных, операторы и условные операторы.</p>
+            <p>Курс также охватывает основные аспекты объектно-ориентированного программирования на C++, включая классы, наследование, полиморфизм и инкапсуляцию. Студенты познакомятся с принципами модульности и разделения кода, а также с основами обработки исключений.</p>
+        </div>
         <p class="text-3xl text-center">О языке C++</p>
         <div class="flex gap-8">
-            <p class="w-1/2">C++ был разработан как расширение языка программирования C с добавлением возможностей объектно-ориентированного программирования (ООП). Он обладает мощными функциональными возможностями, такими как множественное наследование, перегрузка операторов и шаблоны, позволяющими разработчикам создавать гибкие и эффективные программы.</p>
+            <div class="flex flex-col w-1/2 gap-2">
+                <p>C++ является мощным и эффективным языком программирования, который широко используется для разработки различных программных приложений. Он является надмножеством языка C, что означает, что любой код, написанный на языке C, также может быть скомпилирован и выполнен на C++.</p>
+                <p>Одной из ключевых особенностей C++ является его поддержка объектно-ориентированного программирования (ООП). ООП позволяет структурировать программы в виде объектов, которые объединяют данные и функции, работающие с этими данными. Это обеспечивает понятность, модульность и повторное использование кода.</p>
+            </div>
             <img src="Assets/Images/main/main.webp" alt="" class="w-1/2 rounded-xl">
         </div>
         <p class="text-3xl text-center">Просмотр видео</p>
@@ -51,7 +57,7 @@
 
     <footer class="mt-auto flex items-center justify-center gap-1 border-t border-white p-4">
         <p>© 2023 Created by</p>
-        <a href="https://t.me/paderinaaa" class="underline underline-offset-2">Ксения</a>
+        <a href="https://t.me/paderinaaa" target="_blank" class="underline underline-offset-2">Ксения</a>
     </footer>
     
 	<script src="https://code.jquery.com/jquery-3.6.3.min.js" 
