@@ -28,7 +28,7 @@
                 <a href="#books" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Книги</a>
                 <a href="#advantages" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Преимущества и недостатки</a>
                 <a href="#types" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Типы данных C++</a>
-                <a href="#advice" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Совет эксперта</a>
+                <a href="#advice" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Советы от экспертов</a>
                 <a href="#contacts" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white link">Контакты</a>
                 <button type="button" class="absolute top-8 right-8 w-6 h-6" id="close">
                     <img src="Assets/Images/header/close.png" alt="">
@@ -257,8 +257,37 @@
                 </tbody>
             </table>
         </div>
-        <p class="text-3xl text-center" id="advice">Совет эксперта</p>   
-        <p class="w-1/2 rounded-xl border border-white p-4 mx-auto text-xl uppercase">Программирование — творческая профессия, которая доставляет очень много радости, когда что-то получается. Если учиться, узнавать новое, пробовать — результаты работы не перестанут радовать, а трудности не смогут остановить.</p>
+        <p class="text-3xl text-center" id="advice">Советы от экспертов</p>
+        <p class="text-center text-base">*наведитесь на картинку</p>
+        <div class="grid grid-cols-3 gap-6">
+            <div class="relative rounded-xl overflow-hidden border border-white group">
+                <img src="Assets/Images/experts/1.jpg" alt="" class="aspect-video object-cover">
+                <div class="flex flex-col gap-2 absolute left-4 bottom-4 z-10">
+                    <p>Алексей Цой, Senior Developer</p>
+                    <p>14 лет опыта</p>
+                </div>
+                <div class="absolute bg-black opacity-50 inset-0"></div>
+                <p class="flex items-center justify-center p-4 w-full h-full bg-gradient-to-b from-[#151926] to-[#151E46] z-20 absolute inset-0 uppercase translate-x-full transition-all duration-500 group-hover:translate-x-0">Начинающему программисту необходимо как можно больше времени посвящать изучению новых технологий, библиотек, в том числе и классических, таких как Boost, которые используют многие программисты.</p>
+            </div>
+            <div class="relative rounded-xl overflow-hidden border border-white group">
+                <img src="Assets/Images/experts/2.jpg" alt="" class="aspect-video object-cover">
+                <div class="flex flex-col gap-2 absolute left-4 bottom-4 z-10">
+                    <p>Андрей Каличак, C++ Competence Lead</p>
+                    <p>14 лет опыта</p>
+                </div>
+                <div class="absolute bg-black opacity-50 inset-0"></div>
+                <p class="flex items-center justify-center p-4 w-full h-full bg-gradient-to-b from-[#151926] to-[#151E46] z-20 absolute inset-0 uppercase translate-x-full transition-all duration-500 group-hover:translate-x-0">Посоветую почитать в первую очередь классический труд Б. Страуструпа. И лишь потом, имея за плечами несколько килобайт написанного кода, можно приступать к более специализированным материалам</p>
+            </div>
+            <div class="relative rounded-xl overflow-hidden border border-white group">
+                <img src="Assets/Images/experts/3.jpg" alt="" class="aspect-video object-cover">
+                <div class="flex flex-col gap-2 absolute left-4 bottom-4 z-10">
+                    <p>Володимир Корнийчук, Senior Software Engineer</p>
+                    <p>12 лет опыта</p>
+                </div>
+                <div class="absolute bg-black opacity-50 inset-0"></div>
+                <p class="flex items-center justify-center p-4 w-full h-full bg-gradient-to-b from-[#151926] to-[#151E46] z-20 absolute inset-0 uppercase translate-x-full transition-all duration-500 group-hover:translate-x-0">Прежде всего я бы посоветовал новичку ответить для себя на вопрос: «Почему я хочу писать на С++?». С++ выбирают за его быстродействие, эффективность, контроль аппаратных ресурсов, кроссплатформенность, распространенность.</p>
+            </div>
+        </div>
         <p class="text-3xl text-center" id="contacts">Контакты</p>
         <div class="flex gap-8 text-xl">
             <div class="flex flex-col gap-6 w-1/2">
