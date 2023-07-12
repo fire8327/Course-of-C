@@ -20,15 +20,15 @@
        </nav>
        <div class="absolute top-0 w-1/2 h-screen left-1/2 translate-x-full z-50 transition-all duration-500 bg-gradient-to-b from-[#151926] to-[#151E46] text-2xl" id="menu">
             <div class="relative flex flex-col items-center gap-6 justify-center h-full">
-                <a href="/" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Аннотация</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Аннотация</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">О языке</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Просмотр видео</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Зарплата в отрасли</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Сервисы для обучения</a>
                 <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Книги</a>
-                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Сервисы помощи</a>
-                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Работа</a>
-                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Возможности с нами</a>
-                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Эксперты</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Преимущества и недостатки</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Совет эксперта</a>
+                <a href="" class="flex flex-col after:w-0 after:h-0.5 after:transition-all after:duration-500 hover:after:w-full after:bg-white">Контакты</a>
                 <button type="button" class="absolute top-8 right-8 w-6 h-6" id="close">
                     <img src="Assets/Images/header/close.png" alt="">
                 </button>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <p class="text-3xl text-center">Сервисы для обучения</p>
-        <ul class="flex flex-col list-inside list-disc text-2xl">
+        <ul class="flex flex-col list-inside list-decimal text-2xl">
             <li><a class="hover:opacity-75 transition-all duration-500" href="https://academy.yandex.ru/handbook/cpp" target="_blank">Хендбук Академии Яндекса по С++</a></li>
             <li><a class="hover:opacity-75 transition-all duration-500" href="https://hackingcpp.com/index.html" target="_blank">Hacking C++</a></li>
             <li><a class="hover:opacity-75 transition-all duration-500" href="https://userver.tech/" target="_blank">The C++ Asynchronous Framework</a></li>
@@ -87,9 +87,48 @@
             <img src="https://media.proglib.io/posts/2020/03/29/e6a5add85685fa019f91e09d3d008ddb.webp" alt="" class="w-full aspect-[8/12]">
             <img src="https://media.proglib.io/posts/2020/03/29/a0cdba5dc5d70557d6a166350bf88fe1.png" alt="" class="w-full aspect-[8/12]">
         </div>
-        <marquee behavior="smooth" direction="right" class="text-2xl w-full">Главное - не сдаваться!</marquee>
+        <p class="text-3xl text-center">Преимущества и недостатки</p>
+        <div class="flex gap-8 text-xl">
+            <div class="flex flex-col gap-6 w-1/2">
+                <p>✅  Преимущества</p>
+                <ul class="flex flex-col gap-4 list-inside list-disc">
+                    <li>Отсутствие overhead.</li>
+                    <li>Метапрограммирование — возможность поручать большу́ю часть работы компилятору.</li>
+                </ul>
+            </div>
+            <div class="flex flex-col gap-6 w-1/2">
+                <p>❌  Недостатки</p>
+                <ul class="flex flex-col gap-4 list-inside list-disc">
+                    <li>Довольно сложный язык для изучения.</li>
+                    <li>В C++ сложно работать с зависимостями.</li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-3xl text-center">Совет эксперта</p>
+        <p class="w-1/2 rounded-xl border border-white p-4 mx-auto text-xl uppercase">Программирование — творческая профессия, которая доставляет очень много радости, когда что-то получается. Если учиться, узнавать новое, пробовать — результаты работы не перестанут радовать, а трудности не смогут остановить.</p>
+        <p class="text-3xl text-center">Контакты</p>
+        <div class="flex gap-8 text-xl">
+            <div class="flex flex-col gap-6 w-1/2">
+                <div class="flex flex-col gap-2">
+                    <p>Адрес:</p>
+                    <p>ул. Пушкина, д. Колотушкина</p>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p>Номер телефона:</p>
+                    <a href="tel:8 800 555 35 35">8 800 555 35 35</a>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p>Email:</p>
+                    <a href="mailto:example@gmail.com">example@gmail.com</a>
+                </div>
+            </div>
+            <iframe class="w-1/2 aspect-video" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1637390aa6f1f58c184bd502447fd8eabb3bbbc4cdd364d0dc516673a08871e6&amp;source=constructor" frameborder="0"></iframe>
+        </div>
     </main>
 
+    
+
+    <marquee behavior="smooth" direction="right" class="text-2xl w-full">Главное - не сдаваться!</marquee>
     <footer class="mt-auto flex items-center justify-center gap-1 border-t border-white p-4">
         <p>© 2023 Created by</p>
         <a href="https://t.me/paderinaaa" target="_blank" class="underline underline-offset-2">Ксения</a>
